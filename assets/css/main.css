@@ -98,7 +98,8 @@ body, input, select, textarea {
   line-height: 1.65; }
   @media screen and (max-width: 1680px) {
     body, input, select, textarea {
-      font-size: 15pt; } }
+      font-size: 15pt; }
+    }
   @media screen and (max-width: 1280px) {
     body, input, select, textarea {
       font-size: 15pt; } }
@@ -121,8 +122,8 @@ a {
       color: inherit; }
 
 strong, b {
-  color: #3d4449;
-  font-weight: 600; }
+  color: rgba(0, 0, 0, 1);
+  font-weight: 900; }
 
 em, i {
   font-style: italic; }
