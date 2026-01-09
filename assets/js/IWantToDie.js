@@ -15,6 +15,7 @@
                         <span class="opener">Robotics Lessons</span>
                         <ul>
                             <li><a href="day1.html">Spring Day 1: Intro to Circuits</a></li>
+                            <li><a href="day1andhalf.html">Spring Day 1.5: Clarifying Breadboards</a></li>
                         </ul>
                     </li>
                 </ul>
