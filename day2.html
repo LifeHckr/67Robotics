@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Day 2</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Robotics?</strong></a>
+            </header>
+
+            <!-- Content -->
+            <section>
+                <header class="main">
+                    <h1>Breadboards</h1>
+                </header>
+
+                <span class="image"><img src="images/Breadboard.png" alt="" /></span>
+
+                <p><strong>Breadboard</strong>: A circuit board made to quickly allow for temporary electrical connections to be made and easily changed to speed up the process of building different circuits.</p>
+                <p>We will use this to more easily connect different parts of our electronics. The most tricky part that trips up many students is how connections in the breadboard work.</p>
+                <p>The highlighted columns are the <strong>power rails</strong>. The red sides with the + are the <strong>positive power rails</strong> and the blue sides with the - are the <strong>negative power rails.</strong>
+                These power rails direct power up and down if a wire is inserted into any of the slots. But the electricity will stay in the same column, so if a wire is plugged into the top of the positive power rail on the left side and the bottom of the same positive power rail, electricity will flow from one wire to the next.
+                However, the slots in the middle of the breadboard, work differently.          </p>
+                <p>These slots are referred to by the letter of the column they're in and the number of the row. These slots transmit electricity left and right, but only will not allow electricity to flow across the divide in the middle, or into the power rails. So, for example, if a wire was plugged into A1 electricity would also flow between A1, B1, C1, D1, and E1. Power <strong>will not</strong> flow into F1 or into the power rail to the left of A1. There will also be no electricity in any other slot in the A, B, C, D, or E columns.</p>
+
+                <hr class="major" />
+
+                <span class="image fit"><img src="images/SnapWebsite.png" alt="" /></span>
+
+                <p>Starting today we are going to program our robots. We use the website <a href="https://snap4arduino.rocks/">snap4arduino.rocks</a> to program our robots. The first thing to look at is the top left corner, notice the ten different labels. These are the labels of the categories of code we can use. The only category we need for now is th "Arduino" category.</p>
+
+                <span class="image fit"><img src="images/SnapArduino.png" alt="" /></span>
+
+                <p>Click on the "Arduino" category, then look in the left section. The sets of code changed. Look for "Set Digital Pin _ to _". You can click and drag this into the middle to use it. Click in the white space to type in "5" and click the greyed out space until you see a green checkmark like the above image.</p>
+
+                <span class="image fit"><img src="images/ArduinoPic.jpg" alt="" /></span>
+
+                <p>This code when ran, turns on a <strong>digital pin</strong> on the Arduino, specifically pin 5. The digital pins are along the right side of the Arduino as highlighted above. If you move the wire in last class' circuit from 5V to digital pin 5 and activate the code, you should once again see the LED light up.</p>
+                <p><strong>Digital pins</strong> are pins on the Arduino that can only be controlled through code, to turn sending electricity on or off.</p>
+
+                <hr class="major" />
+
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/IWantToDie.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
