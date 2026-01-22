@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Day 3</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Robotics?</strong></a>
+            </header>
+
+            <!-- Content -->
+            <section>
+                <header class="main">
+                    <h1>Inputs</h1>
+                </header>
+
+                <span class="image"><img src="images/InputPins.png" alt="" /></span>
+
+                <p>We've seen how we can send signals to our Arduino to turn on LEDs, but what if we want to receive signals from our Arduinos? We can do this using the digital and analog pins on the Arduino. The <strong>analog pins</strong> are the pins circled on the left, the <strong>digital pins</strong>, as we saw before, are those on the right.</p>
+                <p>When electricity flows through a circuit into any of the analog or digital pins, we can get a reading and do different things depending on what kind of signal we receive.</p>
+                <hr class="major" />
+
+                <p>Before we go further we should learn about the different kinds of signals. For the process of building our circuits we need to focus on two types of signals. <strong>Digital signals</strong> are signals that are either on or off. Think of these like a light switch. The light is either on, and we have a signal we can receive, or its off and there is no signal. <strong>Analog signals</strong> are signals that can be a range of values. For our robots, this is how much electricity we are sending. For a clearer example analog signals are like temperature or a knob on an old radio. These can range from having no signal and being off, to nearly any other number.</p>
+
+                <span class="image"><img src="images/Readings.png" alt="" /></span>
+                <p>The way we can use these pins through code is using the "Analog Reading" and "Digital Reading" blocks of code. Using these we can control things depending on whether there is a signal.</p>
+
+                <span class="image"><img src="images/InputExample.png" alt="" /></span>
+                <p>For example, with code like this, we can turn on an LED plugged into digital pin 5, as long as we receive an on signal from digital pin 12. If we use a button and wire it to digital pin 12, we can make it so that our LED only turns on while the button is pressed. We'll see how to do this in class.</p>
+
+                <hr class="major" />
+
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/IWantToDie.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
