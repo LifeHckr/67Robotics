@@ -17,6 +17,7 @@
                             <li><a href="day1.html">Spring Day 1: Intro to Circuits</a></li>
                             <li><a href="day2.html">Spring Day 2: More Circuits and Programming the Arduino</a></li>
                             <li><a href="day3.html">Spring Day 3: Inputs</a></li>
+                            <li><a href="day7.html">Spring Day 7: Continuing our Project</a></li>
                         </ul>
                     </li>
                 </ul>
